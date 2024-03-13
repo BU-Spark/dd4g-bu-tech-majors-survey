@@ -32,7 +32,7 @@ ui <- fluidPage(
     mainPanel(style = "margin-left: 13%; margin-right: 15%; width: 75%",
 
     # *** Introduction *** #
-    h1(style = "text-align: center", "Welcome to the 2022 DEI in Tech Climate Survey Report"),
+    h1(style = "text-align: center", "Welcome to the 2022/2024 DEI in Tech Climate Survey Report"),
     p("This report is brought to you by the DEI Tech Collective.The Collective is an opportunity
       for BU tech and computing groups to unite around efforts to educate each other
       and address inequity issues within the community."),
@@ -144,7 +144,7 @@ ui <- fluidPage(
         new goals and policies to address inequity, and the data gathered here is meant to contribute to
         the evidence based formation of effective initiatives."),
       p("This report provides overviews of the survey background and methods. Some BU student population
-        data is shared for context, as well as an outline of the 632 respondent demographics to shed light
+        data is shared for context, as well as an outline of the 942 respondent demographics to shed light
         on the types of students who participated. The segments following include explanations of survey
         sections, and associated examples and general analysis of results. More detailed data results for
         each part of the survey can be compiled on the interactive “Build-a-Graph” tab."),
@@ -205,14 +205,36 @@ ui <- fluidPage(
     ## ******************** ##
     h3("Results"),
       ## ** Demographics ** ##
-      h4("Respondent Demographics Summary"),
-        p("Total responses: 632"),
-        p("Disclaimer: In attempts to foster a safe forum for students to make their voices heard, no survey
-          question was required; students could choose to skip a question. Additionally, some questions would
-          only display if the student responded in a particular way to a previous question. For example, if a
-          student indicated that they were a computer engineering major or minor, then they would receive course
-          satisfaction questions for the relevant set of associated computer engineering courses. These details
-          explain why results for each question may not total 632. "),
+      fluidRow(
+      column(width = 6,
+             h4("2022 Respondent Demographics Summary"),
+             p("Total responses: 632"),
+             p("Disclaimer: In attempts to foster a safe forum for students to make their voices heard, no survey question was
+               required; students could choose to skip a question. Additionally, some questions would only display if the student
+               responded in a particular way to a previous question. For example, if a student indicated that they were a computer
+               engineering major or minor, then they would receive course satisfaction questions for the relevant set of associated
+               computer engineering courses. These details explain why results for each question may not total 632.")
+       ),
+       column(width = 6,
+              h4("2024 Respondent Demographics Summary"),
+              p("Total responses: 1088"),
+              p("After taking out responses with progress rate of 2 or less: 895"),
+              p("Disclaimer: This document is part of the work that the DEI Tech Collective group is doing toward strengthening
+                diversity, equity, inclusion, and justice for Computing and Data Science at Boston University. Our climate survey
+                was voluntary. Respondents to this survey could have skipped answering any question which they would not want to
+                answer. Some questions were also relevant based on the answer to another question, leading to inconsistency in the
+                total responses to such questions."),
+
+               p("Any response with a progress rate of 2 and below was considered incomplete and thus excluded. This implied that
+                 out of the original 1088 participants, 895 valid responses were left. This process was particularly important for
+                 ensuring that the quality, and the reliability of the data would be uncompromised. However, it should be minded in
+                 the fact that such insights and recommendations rely on the fact of voluntariness in participation and may not fully
+                 represent the totality body profile of the students. These findings are designed to support improvement in departments
+                 that relate to technology and help towards broader goals regarding enhanced diversity, equity, inclusion, and justice
+                 at Boston University."),
+          )
+        ),
+
 
           ## ** Demographics: Gender ** ##
           h5("Gender"),
