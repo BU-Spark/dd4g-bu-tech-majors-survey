@@ -9,7 +9,7 @@
 The DEI in Tech Climate Survey was motivated by the need to better understand student experiences in tech related departments at BU in an effort to inform areas for change and improvement. The biannual DEI in Tech Climate Survey initiatives aim to evaluate the environment within tech departments at Boston University and address the existing data gap. This application was developed to provide a user-friendly interface for the survey data, and to allow for easy visualization and analysis of the survey results.
 
 ### Team Member Contributions (2024)
-- **Project Manager/Team Lead**: [Naomy Bopela](Nbopela@bu.edu)
+- **Project Manager/Team Lead/Data Visualization**: [Naomy Bopela](Nbopela@bu.edu)
 - **Shiny Development**: [Anush Veeranala](Jun@bu.edu)
 - **Shiny Development**: [Stella Zhai](zhstella@bu.edu)
 - **Shiny Development**: [Jack Campbell](https://www.linkedin.com/in/jack-campbell-a392191a1/)
